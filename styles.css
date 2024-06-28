@@ -1,0 +1,253 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	/* <weight>: Use a value from 300 to 800 */
+}
+
+/* HEADER SECTION */
+header {
+	/* display: flex;
+	justify-content: space-between;
+	align-items: center; */
+	padding: 1rem;
+	color: black;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+header .logo img {
+	width: 18rem;
+	padding-left: 0.2rem;
+}
+
+header .home-link {
+	transform: rotate(270deg);
+	position: absolute;
+	top: 3rem;
+	right: -1rem;
+}
+
+header .home-link img {
+	width: 4rem;
+}
+
+header .home-link a {
+	font-size: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+/* INFO SECTION */
+.info-section {
+	padding: 4rem 1rem;
+	font-weight: 500;
+}
+
+/* PORTFOLIO SECTION */
+.portfolio {
+	display: flex;
+	flex-direction: column;
+}
+
+.artist {
+	display: flex;
+	flex-direction: column;
+	margin: 2em 0;
+}
+
+.swiper {
+	width: 95%;
+	height: 100%;
+	z-index: 1;
+}
+
+.swiper-slide img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	color: black;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+	font-size: 20px;
+}
+
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+	opacity: 0;
+}
+
+/* TEXT */
+.text {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 1rem;
+	font-weight: 500;
+}
+.work-info {
+	width: 50%;
+}
+
+.work-info > p {
+	margin: 0.1rem 0;
+}
+
+.work-info .title,
+.order {
+	font-weight: 700;
+}
+
+.order-about {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 40%;
+	margin-left: 1rem;
+}
+
+.order-about a {
+	display: block;
+	text-align: right;
+	color: #000000;
+	text-decoration: none;
+}
+
+.custom-btn {
+	background-color: white;
+	text-align: right;
+	border: none;
+	text-decoration: underline;
+	padding-left: 0;
+}
+
+/* POP UP STYLES */
+.modal-content {
+	border-radius: 0;
+}
+
+.modal-header {
+	border-bottom: none;
+}
+
+.modal-body h2 {
+	font-size: 1.1rem;
+	font-weight: 600;
+	padding-bottom: 0.6rem;
+}
+
+footer {
+	padding: 8rem 1rem 1rem;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
+/* Breakpoint for desktop*/
+@media (min-width: 960px) {
+	main {
+		margin: 0 7rem;
+	}
+
+	/* Info Section */
+	.info-section {
+		max-width: 50vw;
+		padding-left: 0;
+	}
+	/* Portfolio Section */
+	.artist {
+		flex-direction: row;
+		width: 100%;
+		padding-top: 4rem;
+	}
+
+	.artist .swiper {
+		width: 50vw;
+		flex-shrink: 0;
+	}
+
+	/* Text */
+	.artist .text {
+		width: 50vw;
+		padding-top: 0;
+		padding-left: 2rem;
+		margin-left: 4rem;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	.work-info {
+		width: 100%;
+	}
+	.order-about {
+		padding-top: 1rem;
+		margin: 0;
+		width: 80%;
+	}
+
+	.order-about a {
+		text-align: left;
+	}
+
+	.custom-btn {
+		width: 90%;
+	}
+
+	.more-info {
+		padding-top: 4rem;
+		width: 100%;
+	}
+
+	footer a {
+		padding-left: 6rem;
+	}
+}
+
+/* Pop up */
+@media (min-width: 960px) {
+	.modal-content {
+		width: 100vw;
+		position: fixed;
+		left: 0;
+	}
+
+	.modal-body .container-fluid {
+		padding: 0;
+	}
+
+	.modal-body .row {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.modal-body img.popup-image {
+		width: 95%;
+		height: auto;
+		max-height: 80vh; /* Prevent image from being too tall */
+		object-fit: cover;
+	}
+
+	.modal-body .popup-text {
+		padding: 15px;
+		overflow-y: auto; /* Allow scrolling if content is too long */
+		max-height: 80vh; /* Prevent text from being too tall */
+	}
+}

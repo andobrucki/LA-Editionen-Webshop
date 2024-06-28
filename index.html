@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper/swiper-bundle.min.css"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./styles.css" />
+		<title>LA Editionen</title>
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="./images/los-angeles/favicon.ico"
+		/>
+	</head>
+	<body>
+		<!-- HEADER SECTION -->
+		<header>
+			<div class="logo">
+				<img
+					src="./images/los-angeles/la-editionen.png"
+					alt="LA Editionen Logo"
+				/>
+			</div>
+			<div class="home-link">
+				<a href="https://los-angeles.de.com/"
+					><span>go to</span>
+					<img
+						src="./images/los-angeles/la-logo.png"
+						alt="Los Angeles Logo Home Link"
+				/></a>
+			</div>
+		</header>
+
+		<!-- MAIN SECTION -->
+		<!-- INFO SECTION -->
+		<main>
+			<section class="info-section">
+				<p>
+					LA is planning to convert its historic barn into a studio and
+					exhibition space.
+					<br /><br />
+					To mark the occasion, we have asked four of your favourite artists
+					from Los Angeles to develop a small series of editions, exclusively
+					made for LA. <br />
+					In keeping with the concept of the project, each of these works also
+					serves a practical purpose - <br />come get yourself a Johannes
+					Büttner pendant lamp, Birke Gorm salad servers, a Zuzanna Czebatul
+					side table or a Jonas von Ostrowski door knob.<br /><br />The proceeds
+					will be used to build a transparent house with heating and a bathroom
+					inside LA`s barn.
+				</p>
+			</section>
+
+			<!-- PORTFOLIO 1 -->
+			<section class="portfolio">
+				<!-- ZUZANNA -->
+				<!-- Zuzanna Swiper -->
+				<div class="artist zuzanna">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img
+									src="./images/zuzanna-czebatul/zc1.jpeg"
+									alt="Zuzanna's work"
+								/>
+							</div>
+							<div class="swiper-slide">
+								<img
+									src="./images/zuzanna-czebatul/zc2.jpeg"
+									alt="Zuzanna's work"
+								/>
+							</div>
+							<div class="swiper-slide">
+								<img
+									src="./images/zuzanna-czebatul/zc3.jpeg"
+									alt="Zuzanna's work"
+								/>
+							</div>
+						</div>
+						<!-- Add Arrows -->
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+					<!-- Zuzanna Work Info -->
+					<div class="text">
+						<div class="work-info">
+							<p class="artist-name">Zuzanna Czebatul</p>
+							<p class="title"><br />Broken Mass, 2024</p>
+							<p class="dimensions">ca. 53x53x50cm</p>
+							<p class="material"><br />dyed concrete</p>
+							<p class="edition">Edition of 4, each unique</p>
+							<p class="price"><br />€2.900</p>
+						</div>
+						<div class="order-about">
+							<a
+								class="order"
+								href="mailto:mail@los-angeles.de.com?subject=Order%20%22Broken%20Mass%22%20by%20Zuzanna%20Czebatul&body=Dear%20Los%20Angeles%2C%0D%0A%0D%0AI%20would%20like%20to%20buy%20a%20Zuzanna%20Czebatul%20%22Broken%20Mass%22.%0D%0APlease%20send%20me%20pictures%20of%20the%20available%20ones%20and%20inform%20me%20about%20delivery.%0D%0AThank%20you."
+								>ORDER HERE</a
+							>
+
+							<button
+								type="button"
+								class="custom-btn more-info"
+								data-bs-toggle="modal"
+								data-bs-target="#modalZuzanna"
+							>
+								<a href="#" class="more-info" data-person="zuzanna">
+									find out more about Zuzanna Czebatul and this work
+								</a>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- POP UP ZUZANNA -->
+			<div
+				class="modal fade"
+				id="modalZuzanna"
+				data-bs-backdrop="static"
+				data-bs-keyboard="false"
+				tabindex="-1"
+				aria-labelledby="staticBackdropLabel"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-dialog-scrollable">
+					<div class="modal-content">
+						<!-- Popup Header -->
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="modal"
+								aria-label="Close"
+							></button>
+						</div>
+						<!-- Popup Body -->
+						<div class="modal-body">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="popup-text">
+											<h2>Zuzanna Czebatul</h2>
+											<p>
+												*1986, lives in Berlin, studied at Städelschule
+												Frankfurt and Cooper Union and Hunter College, NYC.
+												Recent solo shows at Kunstpalais Erlangen, sans titre
+												Gallery in Paris, Kunsthal Thy in Stenbjerg DK, group
+												shows at Between Bridges, Berlin, Neuer Kunstverein
+												Mittelrhein, Sammlung Philara Düsseldorf,
+												Bundeskunsthalle, Bonn, Berlinische Galerie, Museum
+												Morsbroich, A7 Athens Biennale, PiK Deutz, Cologne and
+												Studio Berlin, Berghain.
+											</p>
+											<p>
+												During Zuzanna`s residency in LA in July 2021, she
+												created the oven sculpture „Die Schmelze“. Its six ton
+												brick body is covered in a marbled concrete glaze, which
+												was developed by the Berlin artist and applied by hand
+												in countless steps. The expansive shape of the oven can
+												be understood as an inviting gesture: as a place of
+												community, it serves for collective baking, eating and
+												sharing.
+											</p>
+											<p>
+												Zuzanna`s sculptures for YFAFLA, which can be used as
+												side tables, are made of the same two-tone marbled
+												concrete as her oven in Los Angeles. Refering to
+												Zuzanna`s concern with ruins, monuments and their role
+												in mechanisms of power, they are assembled from
+												fragments of a specially made concrete slab.
+											</p>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<img
+											class="img-fluid popup-image"
+											src="./images/pop-ups/infozc.jpeg"
+											width="100%"
+											alt="Zuzanna Czebatul, Die Schmelze"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Popup Body end -->
+					</div>
+				</div>
+			</div>
+			<!-- Popup End -->
+			<!-- PORTFOLIO 2 -->
+			<section class="portfolio">
+				<!-- BIRKE -->
+				<!-- Birke Swiper -->
+				<div class="artist birke">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="./images/birke-gorm/bg1.jpeg" alt="Birke's work" />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/birke-gorm/bg2.jpeg" alt="Birke's work" />
+							</div>
+						</div>
+						<!-- Add Arrows -->
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+					<!-- Birke Work Info -->
+					<div class="text">
+						<div class="work-info">
+							<p class="artist-name">Birke Gorm</p>
+							<p class="title"><br />IOU salad servers, 2024</p>
+							<p class="dimensions">32x3x4cm and 32x4,5x5cm</p>
+							<p class="material">dyed epoxy resin, food-safe</p>
+							<p class="edition">Edition of 20</p>
+							<p class="price"><br />€350</p>
+						</div>
+						<div class="order-about">
+							<a
+								class="order"
+								href="mailto:mail@los-angeles.de.com?subject=Order%20%22IOU%20salad%20servers%22%20by%20Birke%20Gorm&body=Dear%20Los%20Angeles%2C%0D%0A%0D%0AI%20would%20like%20to%20buy%20a%20pair%20of%20Birke%20Gorm%20salad%20servers.%0D%0AThank%20you."
+								>ORDER HERE</a
+							>
+							<button
+								type="button"
+								class="custom-btn more-info"
+								data-bs-toggle="modal"
+								data-bs-target="#modalBirke"
+							>
+								<a href="#" class="more-info" data-person="birke">
+									find out more about Birke Gorm and this work
+								</a>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- POP UP BIRKE -->
+			<div
+				class="modal fade"
+				id="modalBirke"
+				data-bs-backdrop="static"
+				data-bs-keyboard="false"
+				tabindex="-1"
+				aria-labelledby="staticBackdropLabel"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-dialog-scrollable">
+					<div class="modal-content">
+						<!-- Popup Header -->
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="modal"
+								aria-label="Close"
+							></button>
+						</div>
+						<!-- Popup Body -->
+						<div class="modal-body">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="popup-text">
+											<h2>Birke Gorm</h2>
+											<p>
+												*1986, Hamburg, lives and works in Vienna. Recent solo
+												exhibitions at the Museum Sønderjylland, Tønder, Croy
+												Nielsen, Vienna, MAK Museum of Applied Arts, Vienna,
+												Vestjyllands Kunstpavillon, Videbækm, Politikens Forhal,
+												Copenhagen. She was awarded the Strabag Art Award,
+												Vienna in 2021.
+											</p>
+											<p>
+												Birke was one of the first residents in Los Angeles. The
+												works she produced in the House with Clear Shapes and
+												Complex entrance and the nearby barn in late fall 2020
+												were shown the following year during the first Barnale.
+												Among other things, works from her series IOU were on
+												display - tree branches which, at the point where a twig
+												emerges from them, are provided with carved faces that
+												stick out their tongues.
+											</p>
+											<p>
+												Based on the carvings of her IOU series, Birke developed
+												a pair of sculptures for YFAFLA that can be used as
+												salad servers. Two fitting carved branches are attached
+												to a found set of salad servers with cable ties. Of this
+												model a small edition of 20 pieces was hand-cast in
+												two-colored, food-safe epoxy resin.
+											</p>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<img
+											class="img-fluid popup-image"
+											src="./images/pop-ups/infobg.jpeg"
+											alt="Birke Gorm, IOU"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Popup Body end -->
+					</div>
+				</div>
+			</div>
+			<!-- Popup End -->
+
+			<!-- PORTFOLIO 3 -->
+			<section class="portfolio">
+				<!-- JOHANNES -->
+				<!-- Johannes Swiper -->
+				<div class="artist johannes">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img
+									src="./images/johannes-buettner/jb1.jpeg"
+									alt="Johannes's work"
+								/>
+							</div>
+							<div class="swiper-slide">
+								<img
+									src="./images/johannes-buettner/jb2.jpeg"
+									alt="Johannes's work"
+								/>
+							</div>
+							<div class="swiper-slide">
+								<img
+									src="./images/johannes-buettner/jb3.jpeg"
+									alt="Johannes's work"
+								/>
+							</div>
+							<div class="swiper-slide">
+								<img
+									src="./images/johannes-buettner/jb4.jpeg"
+									alt="Johannes's work"
+								/>
+							</div>
+						</div>
+						<!-- Add Arrows -->
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+					<!-- Johannes Work Info -->
+					<div class="text">
+						<div class="work-info">
+							<p class="artist-name">Johannes Büttner</p>
+							<p class="title"><br />KOENIC KMW 1221 B, 2024</p>
+							<p class="dimensions">54x53x49cm</p>
+							<p class="title">Clatronic MWG 756 E, 2024</p>
+							<p class="dimensions">29x46x52cm</p>
+							<p class="material">microwaves, watches</p>
+							<p class="edition">Edition of 3, each unique</p>
+							<p class="price"><br />€2.200</p>
+						</div>
+						<div class="order-about">
+							<a
+								class="order"
+								href="mailto:mail@los-angeles.de.com?subject=Order%20pendant%20lamp%20by%20Johannes%20B%C3%BCttner&body=Dear%20Los%20Angeles%2C%0D%0A%0D%0AI%20would%20like%20to%20buy%20a%20Johannes%20B%C3%BCttner%20pendant%20lamp.%0D%0APlease%20send%20me%20pictures%20of%20the%20available%20ones%20and%20inform%20me%20about%20delivery.%0D%0AThank%20you."
+								>ORDER HERE</a
+							>
+							<button
+								type="button"
+								class="custom-btn more-info"
+								data-bs-toggle="modal"
+								data-bs-target="#modalJohannes"
+							>
+								<a href="#" class="more-info" data-person="johannes">
+									find out more about Johannes Büttner and this work
+								</a>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- POP UP JOHANNES -->
+			<div
+				class="modal fade"
+				id="modalJohannes"
+				data-bs-backdrop="static"
+				data-bs-keyboard="false"
+				tabindex="-1"
+				aria-labelledby="staticBackdropLabel"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-dialog-scrollable">
+					<div class="modal-content">
+						<!-- Popup Header -->
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="modal"
+								aria-label="Close"
+							></button>
+						</div>
+						<!-- Popup Body -->
+						<div class="modal-body">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="popup-text">
+											<h2>Johannes Büttner</h2>
+											<p>
+												*1985, lives in Berlin, studied at UdK Berlin and de
+												Ateliers in Amsterdam. In his installations and films,
+												he investigates the interactions between people and
+												technology, future scenarios and the new economy. His
+												works have been shown at Urbane Künste Ruhr, the
+												Istanbul Biennale and the Kasseler dok film festival.
+												2023 he was nominated for the German Short Film Award.
+											</p>
+											<p>
+												During his residency in Los Angeles in the summer of
+												2023, Johannes together with Annegret von Feiertag shot
+												a science fiction film with actors from the neighboring
+												village. During the second Barnale, LA`s big biannual
+												summershow, the completed film was shown in an
+												installation hanging from the barn`s ceiling, consisting
+												of several vintage flat screens arranged in a circle and
+												connected in series.
+											</p>
+											<p>
+												Johannes`s contribution to the first edition of YFAFLA
+												consists of a series of three sculptures based on his
+												installation in LA and a prior work, shown 2022 at
+												Kunstverein Langenhagen. Different microwave housings,
+												which, stripped of most of their inner workings and
+												fitted with a suitable light source, hang from the
+												ceiling by their cables, working as pendant lamps.
+												Watches rotate inside on the microwave plates.
+											</p>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<img
+											class="img-fluid popup-image"
+											src="./images/pop-ups/infojb.jpeg"
+											alt="Johannes Büttner, Retroverse"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Popup Body end -->
+					</div>
+				</div>
+			</div>
+			<!-- Popup End -->
+
+			<!-- PORTFOLIO 4 -->
+			<section class="portfolio">
+				<!-- JONAS -->
+				<!-- Jonas Swiper -->
+				<div class="artist jonas">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img
+									src="./images/jonas-von-ostrowski/jvo1.jpeg"
+									alt="Jonas's work"
+								/>
+							</div>
+							<div class="swiper-slide">
+								<img
+									src="./images/jonas-von-ostrowski/jvo2.jpeg"
+									alt="Jonas's work"
+								/>
+							</div>
+							<div class="swiper-slide">
+								<img
+									src="./images/jonas-von-ostrowski/jvo3.jpeg"
+									alt="Jonas's work"
+								/>
+							</div>
+						</div>
+						<!-- Add Arrows -->
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+					<!-- Jonas Work Info -->
+					<div class="text">
+						<div class="work-info">
+							<p class="artist-name">Jonas von Ostrowski</p>
+							<p class="title"><br />3 Untitled Sculptures, 2024</p>
+							<p class="dimensions">each ca. 8x8x5cm</p>
+
+							<p class="material">cast aluminium, gloss stained and anodised</p>
+							<p class="edition">Edition of 3, each unique</p>
+							<p class="price"><br />€900</p>
+						</div>
+						<div class="order-about">
+							<a
+								class="order"
+								href="mailto:mail@los-angeles.de.com?subject=Order%20%22Untitled%20Sculpture%22%20by%20Jonas%20von%20Ostrowski&body=Dear%20Los%20Angeles%2C%0D%0A%0D%0AI%20would%20like%20to%20buy%20a%20Jonas%20von%20Ostrowski%20door%20knob.%0D%0APlease%20send%20me%20pictures%20of%20the%20available%20ones%20and%20inform%20me%20about%20delivery.%0D%0AThank%20you."
+								>ORDER HERE</a
+							>
+							<button
+								type="button"
+								class="custom-btn more-info"
+								data-bs-toggle="modal"
+								data-bs-target="#modalJonas"
+							>
+								<a href="#" class="more-info" data-person="jonas">
+									find out more about Jonas von Ostrowski and this work
+								</a>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- POP UP JONAS -->
+			<div
+				class="modal fade"
+				id="modalJonas"
+				data-bs-backdrop="static"
+				data-bs-keyboard="false"
+				tabindex="-1"
+				aria-labelledby="staticBackdropLabel"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-dialog-scrollable">
+					<div class="modal-content">
+						<!-- Popup Header -->
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="modal"
+								aria-label="Close"
+							></button>
+						</div>
+						<!-- Popup Body -->
+						<div class="modal-body">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="popup-text">
+											<h2>Jonas von Ostrowski</h2>
+											<p>
+												*1981 in Günsterode, studied in Hamburg and Brussels.
+												Jonas has made several stage designs at theatres,
+												including the Münchner Kammerspiele and the Theater
+												Bremen. He was curator of the project space Prince of
+												Wales in Munich. Drawings and objects of his can be
+												found in the Bayerische and others. In 2018 he was
+												awarded the Bayerischer Staatsförderpreis, in 2019 the
+												Stipendium für bildende Kunst der Landeshauptstadt
+												München and in 2021/22 he was working scholar of the
+												Stiftung Kunstfonds Bonn. In 2016 he began working on
+												Los Angeles.
+											</p>
+											<p>
+												Jonas is the initiator of Los Angeles. His inhabitable
+												and mostly self-built sculpture „House with Clear Shapes
+												and a Complex Entrance“ was the starting point of the
+												project and has been home to residents and guests since
+												its completion in 2020.
+											</p>
+											<p>
+												Jonas is currently working on a project for a newly
+												built elementary school in Munich. „346 Untitled
+												Sculptures“ are going to replace the door handles of the
+												classrooms, restrooms etc.. His contribution to YFAFLA
+												consists of an edition related to this work. Cast
+												directly from quickly formed waxmodels, the sculptures
+												are made from anodized aluminium. Fitted with a special
+												bracket, they can be attached to almost any front door
+												at the place of the door knob.
+											</p>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<img
+											class="img-fluid popup-image"
+											src="./images/pop-ups/infojvo.jpeg"
+											alt="Jonas von Ostrowski, House with clear shapes and a complex entrance"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Popup Body end -->
+					</div>
+				</div>
+			</div>
+			<!-- Popup End -->
+		</main>
+		<footer><a href="https://los-angeles.de.com/#info">Imprint</a></footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
